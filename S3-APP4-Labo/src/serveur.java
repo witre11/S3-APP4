@@ -3,11 +3,10 @@ import java.io.IOException;
 public class serveur {
 
     public static void main (String[] args) throws IOException {
-        if (args.length != 1) {
-            System.out.println("Usage: java QuoteClient <hostname>");
-            return;
-        }
 
+        String nomFichier = args[0];
+        String add = args[1];
+        System.out.println(add);
 
         coucheApplication application;
         coucheTransport transport;
@@ -27,6 +26,10 @@ public class serveur {
         liaison.setCurrentPlusHaut(transport);
         liaison.setCurrentPlusBas(physique);
         physique.setCurrentPlusHaut(liaison);
+
+        physique.setDestAdresseIP(add);
+        physique.setDestPort(25678);
+        physique.demarrerServeurThread();
 
 
     }
