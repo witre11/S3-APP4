@@ -1,9 +1,12 @@
 import java.io.*;
+import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.util.Arrays;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.io.File;  // Import the File class
+
+import static java.lang.System.arraycopy;
 
 public class coucheApplication extends couche {
 
@@ -51,9 +54,16 @@ public class coucheApplication extends couche {
 
         Path cheminFichier = fichier.toPath();
         //System.out.println("le chemin du fichier est:" + cheminFichier);
-
+        String filename = fichier.getName();
+        String filenameWithoutDirectory = filename.substring(filename.lastIndexOf("/") + 1);
         long longueurFichier = fichier.length();
-        byte[] aPDU = Files.readAllBytes(cheminFichier);
+        byte[] titreFichier = filenameWithoutDirectory.getBytes(StandardCharsets.US_ASCII);
+        byte[] contenuFichier = Files.readAllBytes(cheminFichier);
+
+
+        byte[] aPDU = new byte[titreFichier.length + contenuFichier.length];
+        arraycopy(titreFichier, 0, aPDU, 0, titreFichier.length);
+        arraycopy(contenuFichier, 0, aPDU, 20, contenuFichier.length - 20);
 
         System.out.println("Envoi du PDU vers la couche transport");
         envoiBas(aPDU);

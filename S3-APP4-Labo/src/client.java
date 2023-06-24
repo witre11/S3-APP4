@@ -1,4 +1,5 @@
 import java.io.IOException;
+import java.util.Arrays;
 
 public class client {
 
@@ -15,8 +16,6 @@ public class client {
         coucheTransport transport;
         coucheLiaison liaison;
         couchePhysique physique; //A changer pour sockets
-
-
 
         application = coucheApplication.getInstance();
         transport = coucheTransport.getInstance();
