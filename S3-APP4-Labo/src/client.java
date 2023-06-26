@@ -4,7 +4,7 @@ import java.util.Arrays;
 public class client {
 
 
-    public static void main (String[] args) throws IOException {
+    public static void main (String[] args) throws IOException, ErreurTransmissionException {
         if (args.length != 1) {
             System.out.println("Usage: java QuoteClient <hostname>");
             return;

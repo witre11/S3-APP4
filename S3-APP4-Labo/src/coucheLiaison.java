@@ -17,14 +17,14 @@ public class coucheLiaison extends couche{
 
 
     @Override
-    protected void receptionHaut(byte[] PDU) {
+    protected void receptionHaut(byte[] PDU) throws ErreurTransmissionException{
         System.out.println("Reception du PDU de la couche transport");
         System.out.println("Envoi du PDU vers la couche physique");
         envoiBas(PDU);
     }
 
     @Override
-    protected void receptionBas(byte[] PDU) {
+    protected void receptionBas(byte[] PDU) throws ErreurTransmissionException{
         System.out.println("Reception du PDU de la couche physique");
         System.out.println("Envoi du PDU vers la couche transport");
         envoiHaut(PDU);

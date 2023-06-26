@@ -28,7 +28,7 @@ public class coucheApplication extends couche {
         try {
 
             String cheminFichier = new File(" ").getAbsolutePath();
-            File monFichier = new File(cheminFichier+nomFichier);
+            File monFichier = new File(cheminFichier+"v2"+fileName);
 
             if (monFichier.exists()) monFichier.delete();
 
@@ -46,7 +46,7 @@ public class coucheApplication extends couche {
         }
     }
 
-    public void envoiFichier(String a) throws IOException {
+    public void envoiFichier(String a) throws IOException, ErreurTransmissionException {
 
         File fichier = new File(a);
         String nomFichier = fichier.getName();
@@ -57,13 +57,13 @@ public class coucheApplication extends couche {
         String filename = fichier.getName();
         String filenameWithoutDirectory = filename.substring(filename.lastIndexOf("/") + 1);
         long longueurFichier = fichier.length();
-        byte[] titreFichier = filenameWithoutDirectory.getBytes(StandardCharsets.US_ASCII);
         byte[] contenuFichier = Files.readAllBytes(cheminFichier);
+        String fileName = fichier.getName();
 
+        setFileName(filename);
 
-        byte[] aPDU = new byte[titreFichier.length + contenuFichier.length];
-        arraycopy(titreFichier, 0, aPDU, 0, titreFichier.length);
-        arraycopy(contenuFichier, 0, aPDU, 20, contenuFichier.length - 20);
+        byte[] aPDU = new byte[contenuFichier.length];
+        arraycopy(contenuFichier, 0, aPDU, 0, contenuFichier.length);
 
         System.out.println("Envoi du PDU vers la couche transport");
         envoiBas(aPDU);

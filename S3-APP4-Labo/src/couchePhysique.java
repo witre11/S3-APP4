@@ -11,14 +11,14 @@ public class couchePhysique extends couche{
 
 
     @Override
-    protected void receptionHaut(byte[] PDU) {
+    protected void receptionHaut(byte[] PDU) throws ErreurTransmissionException{
         System.out.println("Reception du PDU de la couche liaison");
         System.out.println("Devrait normalement envoyer vers serveur");
         receptionBas(PDU);
     }
 
     @Override
-    protected void receptionBas(byte[] PDU) {
+    protected void receptionBas(byte[] PDU)throws ErreurTransmissionException {
         System.out.println("Devrait normalement recevoir de client");
         System.out.println("Envoi du PDU vers la couche liaison");
         envoiHaut(PDU);

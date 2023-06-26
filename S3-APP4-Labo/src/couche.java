@@ -13,10 +13,12 @@
 
 //Classe qui utilise le concept de "chain of responsability"
 public abstract class couche {
-
+    protected String fileName;
     private couche currentPlusHaut;
     private couche currentPlusBas;
-
+    public void setFileName(String fileName) {
+        this.fileName = fileName;
+    }
     //Monter la couche
     public void setCurrentPlusHaut(couche nextPlusHaut){
         currentPlusHaut = nextPlusHaut;
@@ -27,16 +29,16 @@ public abstract class couche {
         currentPlusBas = nextPlusBas;
     }
 
-    protected abstract void receptionHaut(byte[] PDU);
+    protected abstract void receptionHaut(byte[] PDU) throws ErreurTransmissionException;
 
-    protected void envoiBas(byte[] PDU){
+    protected void envoiBas(byte[] PDU) throws ErreurTransmissionException {
         currentPlusBas.receptionHaut(PDU);
     }
 
-    protected abstract void receptionBas(byte[] PDU);
+    protected abstract void receptionBas(byte[] PDU)throws ErreurTransmissionException;
 
     //appel de l'envoi vers le haut
-    protected void envoiHaut(byte[] PDU){
+    protected void envoiHaut(byte[] PDU) throws ErreurTransmissionException {
         currentPlusHaut.receptionBas(PDU);
     }
 
