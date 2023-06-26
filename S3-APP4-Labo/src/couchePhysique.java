@@ -81,7 +81,7 @@ public class couchePhysique extends couche {
             while (true) {
 
                 try {
-                    byte[] buf = new byte[200];
+                    byte[] buf = new byte[204];
 
                     // receive request
                     DatagramPacket packet = new DatagramPacket(buf, buf.length);
