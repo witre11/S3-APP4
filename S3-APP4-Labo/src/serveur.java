@@ -28,6 +28,9 @@ public class serveur {
         liaison.setCurrentPlusBas(physique);
         physique.setCurrentPlusHaut(liaison);
 
+        physique.setDestAdresseIP("localhost");
+        physique.setDestPort(25678);
+        physique.demarrerServeurThread();
 
     }
 }

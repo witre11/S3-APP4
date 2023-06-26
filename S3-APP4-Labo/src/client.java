@@ -29,6 +29,9 @@ public class client {
         liaison.setCurrentPlusBas(physique);
         physique.setCurrentPlusHaut(liaison);
 
+
+        physique.setDestAdresseIP("localhost");
+        physique.setDestPort(25678);
         application.envoiFichier(nomFichier);
 
     }

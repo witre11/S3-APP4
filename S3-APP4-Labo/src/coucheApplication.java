@@ -28,7 +28,7 @@ public class coucheApplication extends couche {
         try {
 
             String cheminFichier = new File(" ").getAbsolutePath();
-            File monFichier = new File(cheminFichier+"v2"+fileName);
+            File monFichier = new File(cheminFichier+"v2.txt");
 
             if (monFichier.exists()) monFichier.delete();
 
