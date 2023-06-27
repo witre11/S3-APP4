@@ -33,8 +33,5 @@ public class client {
         physique.setDestPortRecep(26666);
         physique.demarrerServeurThread();
         application.envoiFichier(nomFichier);
-
-
-        System.exit(0);
     }
 }

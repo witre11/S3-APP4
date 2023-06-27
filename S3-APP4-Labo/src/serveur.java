@@ -14,8 +14,6 @@ public class serveur {
         coucheLiaison liaison;
         couchePhysique physique; //A changer pour sockets
 
-
-
         application = coucheApplication.getInstance();
         transport = coucheTransport.getInstance();
         liaison = coucheLiaison.getInstance();

@@ -47,6 +47,10 @@ public class coucheApplication extends couche {
         }
     }
 
+    /**
+     *
+     * @return
+     */
     public void envoiFichier(String a) throws IOException, ErreurTransmissionException, InterruptedException {
 
         File fichier = new File(a);
@@ -61,5 +65,7 @@ public class coucheApplication extends couche {
         System.out.println("Envoi du PDU vers la couche transport");
         envoiBas(aPDU);
         Thread.sleep(1000);
+        System.exit(0);
+
     }
 }

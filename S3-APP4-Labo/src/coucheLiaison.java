@@ -76,6 +76,7 @@ public class coucheLiaison extends couche{
         if(dataCRC != valeurCRC) {
             ecrirelog("Erreur de CRC : "+ erreursCRC);
             erreursCRC++;
+            return;
         }
 
         ecrirelog("Envoi du PDU vers la couche transport, paquets reçus : " + packetsReceived);

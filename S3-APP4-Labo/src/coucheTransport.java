@@ -22,6 +22,8 @@ public class coucheTransport extends couche {
         next_seq_number = 1;
     }
     private int nb_fragmentation;
+    private int maxVal=0;
+    private int comptePaquets=0;
 
     public static coucheTransport getInstance(){
         if (instance == null) instance = new coucheTransport();
@@ -57,7 +59,7 @@ public class coucheTransport extends couche {
             next_seq_number++;
             envoiBas(tpdu[i]);
         }
-        System.out.println(Arrays.toString(tpdu));
+        //System.out.println(Arrays.toString(tpdu));
 
 
     }
@@ -66,14 +68,15 @@ public class coucheTransport extends couche {
     protected void receptionBas(byte[] PDU) throws ErreurTransmissionException{
         char debutTrame = (char) PDU[0];
         int numeroSequence = Integer.parseInt(new String(Arrays.copyOfRange(PDU, 1, 5)));
+        System.out.println(numeroSequence);
         int taillePDU = Integer.parseInt(new String(Arrays.copyOfRange(PDU, 5, 9)));
+
         if (previous != -1 && numeroSequence != previous + 1) {
 
             //creer la demande de retransmission r-seq-taille-retransmission
             byte[] requestPDU = new byte[200];
             requestPDU[0] = 'r';
-            //System.out.println(next_seq_number);
-            String sequenceString = String.format("%04d", numeroSequence);
+            String sequenceString = String.format("%04d", previous);
             byte[] sequenceBytes = sequenceString.getBytes(StandardCharsets.US_ASCII);
             arraycopy(sequenceBytes, 0, requestPDU, 1, 4);
 
@@ -89,28 +92,11 @@ public class coucheTransport extends couche {
         previous = numeroSequence;
         if(debutTrame == 'd')
         {
-            byte[] contenuFichier = Arrays.copyOfRange(PDU, 9, PDU.length);
-            String message = new String(contenuFichier, StandardCharsets.US_ASCII);
-            accumulatedData.append(message);
             envoiBas(sendAck(numeroSequence));
-        }
 
-        if (debutTrame == 'f'){
             byte[] contenuFichier = Arrays.copyOfRange(PDU, 9, PDU.length);
             String message = new String(contenuFichier, StandardCharsets.US_ASCII);
             accumulatedData.append(message);
-            String allData = accumulatedData.toString().trim();
-            byte[] data = allData.getBytes(StandardCharsets.US_ASCII);
-            envoiHaut(data);
-            accumulatedData.setLength(0);
-            envoiBas(sendAck(numeroSequence));
-        }
-        if (debutTrame == 'n')
-        {
-            byte[] contenuFichier = Arrays.copyOfRange(PDU, 9, PDU.length);
-            String message = new String(contenuFichier, StandardCharsets.US_ASCII);
-            accumulatedData.append(message);
-            envoiBas(sendAck(numeroSequence));
         }
         if(debutTrame == 'r')
         {
@@ -119,8 +105,31 @@ public class coucheTransport extends couche {
             {
                 throw new ErreurTransmissionException("3 erreurs");
             }
-            envoiBas(tpdu[numeroSequence-1]);
+            envoiBas(tpdu[previous-1]);
         }
+
+        if (debutTrame == 'f'){
+            envoiBas(sendAck(numeroSequence));
+
+            byte[] contenuFichier = Arrays.copyOfRange(PDU, 9, PDU.length);
+            String message = new String(contenuFichier, StandardCharsets.US_ASCII);
+            accumulatedData.append(message);
+            String allData = accumulatedData.toString().trim();
+            byte[] data = allData.getBytes(StandardCharsets.US_ASCII);
+            envoiHaut(data);
+            accumulatedData.setLength(0);
+
+        }
+        if (debutTrame == 'n')
+        {
+            envoiBas(sendAck(numeroSequence));
+
+            byte[] contenuFichier = Arrays.copyOfRange(PDU, 9, PDU.length);
+            String message = new String(contenuFichier, StandardCharsets.US_ASCII);
+            accumulatedData.append(message);
+        }
+
+
         if(debutTrame == 'a')
         {
             System.out.println("Accusé "+numeroSequence);

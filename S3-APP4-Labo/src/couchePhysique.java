@@ -58,21 +58,21 @@ public class couchePhysique extends couche {
         }
         //System.out.println("Etat de l'erreur: "+ erreurbit);
         if (erreurbit && compteur == 5) {
-            PDU[5] &= ~(1<< compteur);
+            PDU[20] &= ~(1<< compteur);
         }
         compteur++;
         DatagramPacket packet = new DatagramPacket(PDU, PDU.length, destAdresseIP, destPort);
 
         try {
             socket.send(packet);
-            Thread.sleep(3);
+            Thread.sleep(2);
         } catch (IOException e) {
             throw new RuntimeException(e);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
 
-        socket.close();
+        //socket.close();
 
         //System.out.println("Devrait normalement envoyer vers serveur");
     }
