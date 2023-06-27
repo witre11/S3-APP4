@@ -22,13 +22,14 @@ public class coucheApplication extends couche {
 
     @Override
     public void receptionBas(byte[] PDU){
-        System.out.println("Reception du fichier de la couche transport");
-        String nomFichier = "fichierRecu.txt";
 
+        System.out.println("Reception du fichier de la couche transport");
+        String nomFichier = new String(Arrays.copyOfRange(PDU,0,191)).trim();
+        byte[] data = Arrays.copyOfRange(PDU, 191,PDU.length);
         try {
 
             String cheminFichier = new File(" ").getAbsolutePath();
-            File monFichier = new File(cheminFichier+"v2.txt");
+            File monFichier = new File(cheminFichier+" "+nomFichier);
 
             if (monFichier.exists()) monFichier.delete();
 
@@ -38,7 +39,7 @@ public class coucheApplication extends couche {
                 System.out.println("Fichier existe");
             }
 
-            Files.write(Path.of(monFichier.getPath()), PDU);
+            Files.write(Path.of(monFichier.getPath()), data);
 
         } catch (IOException e) {
             System.out.println("An error occurred.");
@@ -46,26 +47,19 @@ public class coucheApplication extends couche {
         }
     }
 
-    public void envoiFichier(String a) throws IOException, ErreurTransmissionException {
+    public void envoiFichier(String a) throws IOException, ErreurTransmissionException, InterruptedException {
 
         File fichier = new File(a);
-        String nomFichier = fichier.getName();
-        //System.out.println("le nom du fichier à envoyer est:" + nomFichier);
-
         Path cheminFichier = fichier.toPath();
-        //System.out.println("le chemin du fichier est:" + cheminFichier);
-        String filename = fichier.getName();
-        String filenameWithoutDirectory = filename.substring(filename.lastIndexOf("/") + 1);
-        long longueurFichier = fichier.length();
         byte[] contenuFichier = Files.readAllBytes(cheminFichier);
-        String fileName = fichier.getName();
 
-        setFileName(filename);
-
-        byte[] aPDU = new byte[contenuFichier.length];
-        arraycopy(contenuFichier, 0, aPDU, 0, contenuFichier.length);
+        byte[] aPDU = new byte[191+contenuFichier.length];
+        byte[] filename = fichier.getName().getBytes();
+        arraycopy(filename, 0, aPDU, 0, filename.length);
+        arraycopy(contenuFichier, 0, aPDU, 191, contenuFichier.length);
 
         System.out.println("Envoi du PDU vers la couche transport");
         envoiBas(aPDU);
+        Thread.sleep(1000);
     }
 }

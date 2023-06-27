@@ -4,11 +4,8 @@ import java.util.Arrays;
 public class client {
 
 
-    public static void main (String[] args) throws IOException, ErreurTransmissionException {
-        if (args.length != 1) {
-            System.out.println("Usage: java QuoteClient <hostname>");
-            return;
-        }
+    public static void main (String[] args) throws IOException, ErreurTransmissionException, InterruptedException {
+
 
         String nomFichier = args[0];
 
@@ -29,10 +26,15 @@ public class client {
         liaison.setCurrentPlusBas(physique);
         physique.setCurrentPlusHaut(liaison);
 
+        physique.setErreur(true);
 
         physique.setDestAdresseIP("localhost");
-        physique.setDestPort(25678);
+        physique.setDestPort(25555);
+        physique.setDestPortRecep(26666);
+        physique.demarrerServeurThread();
         application.envoiFichier(nomFichier);
 
+
+        System.exit(0);
     }
 }

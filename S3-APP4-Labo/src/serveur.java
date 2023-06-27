@@ -29,8 +29,19 @@ public class serveur {
         physique.setCurrentPlusHaut(liaison);
 
         physique.setDestAdresseIP("localhost");
-        physique.setDestPort(25678);
+        physique.setDestPort(26666);
+        physique.setDestPortRecep(25555);
         physique.demarrerServeurThread();
+
+
+        while(true) {
+            int command = System.in.read();
+            switch (command) {
+                case 113://q
+                    System.exit(0);
+                    break;
+            }
+        }
 
     }
 }

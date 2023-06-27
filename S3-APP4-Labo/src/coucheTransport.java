@@ -21,6 +21,7 @@ public class coucheTransport extends couche {
     private coucheTransport(){
         next_seq_number = 1;
     }
+    private int nb_fragmentation;
 
     public static coucheTransport getInstance(){
         if (instance == null) instance = new coucheTransport();
@@ -29,7 +30,7 @@ public class coucheTransport extends couche {
 
     @Override
     protected void receptionHaut(byte[] PDU) throws ErreurTransmissionException{
-        int nb_fragmentation = (int) Math.ceil((double) PDU.length / size);
+        nb_fragmentation = (int) Math.ceil((double) PDU.length / size);
         char debut_trame = 'd';
         tpdu = new byte[nb_fragmentation][200];
         for(int i = 0;  i < nb_fragmentation;i++)
@@ -71,6 +72,7 @@ public class coucheTransport extends couche {
             //creer la demande de retransmission r-seq-taille-retransmission
             byte[] requestPDU = new byte[200];
             requestPDU[0] = 'r';
+            System.out.println(next_seq_number);
             String sequenceString = String.format("%04d", next_seq_number);
             byte[] sequenceBytes = sequenceString.getBytes(StandardCharsets.US_ASCII);
             arraycopy(sequenceBytes, 0, requestPDU, 1, 4);
@@ -89,7 +91,7 @@ public class coucheTransport extends couche {
             byte[] contenuFichier = Arrays.copyOfRange(PDU, 9, PDU.length);
             String message = new String(contenuFichier, StandardCharsets.US_ASCII);
             accumulatedData.append(message);
-            //envoiBas(sendAck(numeroSequence));
+            envoiBas(sendAck(numeroSequence));
         }
 
         if (debutTrame == 'f'){
@@ -100,14 +102,14 @@ public class coucheTransport extends couche {
             byte[] data = allData.getBytes(StandardCharsets.US_ASCII);
             envoiHaut(data);
             accumulatedData.setLength(0);
-            //envoiBas(sendAck(numeroSequence));
+            envoiBas(sendAck(numeroSequence));
         }
         if (debutTrame == 'n')
         {
             byte[] contenuFichier = Arrays.copyOfRange(PDU, 9, PDU.length);
             String message = new String(contenuFichier, StandardCharsets.US_ASCII);
             accumulatedData.append(message);
-            //envoiBas(sendAck(numeroSequence));
+            envoiBas(sendAck(numeroSequence));
         }
         if(debutTrame == 'r')
         {

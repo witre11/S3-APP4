@@ -54,7 +54,7 @@ public class coucheLiaison extends couche{
                 (byte) (valeurCRC >> 16),
                 (byte) (valeurCRC >> 8),
                 (byte) valeurCRC};
-        System.out.println(valeurCRC);
+        //System.out.println(valeurCRC);
         System.arraycopy(tamponCRC, 0, CRCpdu, 0, 4);
         System.arraycopy(PDU, 0, CRCpdu, 4, PDU.length);
         packetsSent++;
@@ -72,16 +72,14 @@ public class coucheLiaison extends couche{
         long dataCRC = crc.getValue();
         ByteBuffer receivedCRCBuffer = ByteBuffer.wrap(CRCtrame);
         long  valeurCRC= receivedCRCBuffer.getInt() & 0xFFFFFFFFL;
-        System.out.println("bas apres :"+ dataCRC);
-        System.out.println("bas avant " + valeurCRC);
-        if(dataCRC != valeurCRC)
-        {
-         ecrirelog("Erreur de CRC : "+ erreursCRC);
-         erreursCRC++;
-         return;
-        }
         packetsReceived++;
-        ecrirelog("Envoi du PDU vers la couche transport, paquets reçus : "+ packetsReceived);
-        envoiHaut(data);
+        if(dataCRC != valeurCRC) {
+            ecrirelog("Erreur de CRC : "+ erreursCRC);
+            erreursCRC++;
+        }
+        else {
+            ecrirelog("Envoi du PDU vers la couche transport, paquets reçus : " + packetsReceived);
+            envoiHaut(data);
+        }
     }
 }
