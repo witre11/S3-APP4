@@ -77,9 +77,8 @@ public class coucheLiaison extends couche{
             ecrirelog("Erreur de CRC : "+ erreursCRC);
             erreursCRC++;
         }
-        else {
-            ecrirelog("Envoi du PDU vers la couche transport, paquets reçus : " + packetsReceived);
-            envoiHaut(data);
-        }
+
+        ecrirelog("Envoi du PDU vers la couche transport, paquets reçus : " + packetsReceived);
+        envoiHaut(data);
     }
 }

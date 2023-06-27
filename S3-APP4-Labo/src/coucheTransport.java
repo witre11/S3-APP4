@@ -72,8 +72,8 @@ public class coucheTransport extends couche {
             //creer la demande de retransmission r-seq-taille-retransmission
             byte[] requestPDU = new byte[200];
             requestPDU[0] = 'r';
-            System.out.println(next_seq_number);
-            String sequenceString = String.format("%04d", next_seq_number);
+            //System.out.println(next_seq_number);
+            String sequenceString = String.format("%04d", numeroSequence);
             byte[] sequenceBytes = sequenceString.getBytes(StandardCharsets.US_ASCII);
             arraycopy(sequenceBytes, 0, requestPDU, 1, 4);
 
@@ -82,7 +82,8 @@ public class coucheTransport extends couche {
             arraycopy(lengthBytes, 0, requestPDU, 5,  4);
             String requestMessage = "retransmission";
             byte[] requestMessageBytes = requestMessage.getBytes(StandardCharsets.US_ASCII);
-            System.arraycopy(requestMessageBytes, 0, requestPDU, 0, requestMessageBytes.length);
+            System.arraycopy(requestMessageBytes, 0, requestPDU, 9, requestMessageBytes.length);
+            //System.out.print(requestMessageBytes);
             envoiBas(requestPDU);
         }
         previous = numeroSequence;
@@ -118,7 +119,7 @@ public class coucheTransport extends couche {
             {
                 throw new ErreurTransmissionException("3 erreurs");
             }
-            envoiBas(tpdu[numeroSequence]);
+            envoiBas(tpdu[numeroSequence-1]);
         }
         if(debutTrame == 'a')
         {

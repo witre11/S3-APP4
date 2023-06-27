@@ -23,7 +23,7 @@ public class coucheApplication extends couche {
     @Override
     public void receptionBas(byte[] PDU){
 
-        System.out.println("Reception du fichier de la couche transport");
+        //System.out.println("Reception du fichier de la couche transport");
         String nomFichier = new String(Arrays.copyOfRange(PDU,0,191)).trim();
         byte[] data = Arrays.copyOfRange(PDU, 191,PDU.length);
         try {

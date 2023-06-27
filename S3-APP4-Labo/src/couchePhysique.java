@@ -49,14 +49,14 @@ public class couchePhysique extends couche {
 
     @Override
     protected void receptionHaut(byte[] PDU) {
-        System.out.println("Reception du PDU de la couche liaison");
+        //System.out.println("Reception du PDU de la couche liaison");
 
         try {
             this.socket = new DatagramSocket();
         } catch (IOException e) {
             e.printStackTrace();
         }
-        System.out.println("Etat de l'erreur: "+ erreurbit);
+        //System.out.println("Etat de l'erreur: "+ erreurbit);
         if (erreurbit && compteur == 5) {
             PDU[5] &= ~(1<< compteur);
         }
