@@ -1,128 +1,272 @@
-2023-06-27 13:20:41 - Reception du PDU de la couche transport
-2023-06-27 13:20:41 - Envoi du PDU vers la couche physique, paquet transmis : 1
-2023-06-27 13:20:41 - Reception du PDU de la couche transport
-2023-06-27 13:20:41 - Envoi du PDU vers la couche physique, paquet transmis : 2
-2023-06-27 13:20:41 - Reception du PDU de la couche transport
-2023-06-27 13:20:41 - Envoi du PDU vers la couche physique, paquet transmis : 3
-2023-06-27 13:20:41 - Reception du PDU de la couche transport
-2023-06-27 13:20:41 - Envoi du PDU vers la couche physique, paquet transmis : 4
-2023-06-27 13:20:41 - Reception du PDU de la couche transport
-2023-06-27 13:20:41 - Envoi du PDU vers la couche physique, paquet transmis : 5
-2023-06-27 13:20:41 - Reception du PDU de la couche transport
-2023-06-27 13:20:41 - Envoi du PDU vers la couche physique, paquet transmis : 6
-2023-06-27 13:20:41 - Reception du PDU de la couche transport
-2023-06-27 13:20:41 - Envoi du PDU vers la couche physique, paquet transmis : 7
-2023-06-27 13:20:41 - Reception du PDU de la couche transport
-2023-06-27 13:20:41 - Envoi du PDU vers la couche physique, paquet transmis : 8
-2023-06-27 13:20:41 - Reception du PDU de la couche transport
-2023-06-27 13:20:41 - Envoi du PDU vers la couche physique, paquet transmis : 9
-2023-06-27 13:20:41 - Reception du PDU de la couche transport
-2023-06-27 13:20:41 - Envoi du PDU vers la couche physique, paquet transmis : 10
-2023-06-27 13:20:41 - Reception du PDU de la couche physique
-2023-06-27 13:20:41 - Reception du PDU de la couche transport
-2023-06-27 13:20:41 - Envoi du PDU vers la couche physique, paquet transmis : 11
-2023-06-27 13:20:41 - Envoi du PDU vers la couche transport, paquets reçus : 1
-2023-06-27 13:20:41 - Reception du PDU de la couche transport
-2023-06-27 13:20:41 - Envoi du PDU vers la couche physique, paquet transmis : 12
-2023-06-27 13:20:41 - Reception du PDU de la couche transport
-2023-06-27 13:20:41 - Envoi du PDU vers la couche physique, paquet transmis : 13
-2023-06-27 13:20:41 - Reception du PDU de la couche transport
-2023-06-27 13:20:41 - Envoi du PDU vers la couche physique, paquet transmis : 14
-2023-06-27 13:20:41 - Reception du PDU de la couche transport
-2023-06-27 13:20:41 - Envoi du PDU vers la couche physique, paquet transmis : 15
-2023-06-27 13:20:41 - Reception du PDU de la couche transport
-2023-06-27 13:20:41 - Envoi du PDU vers la couche physique, paquet transmis : 16
-2023-06-27 13:20:41 - Reception du PDU de la couche transport
-2023-06-27 13:20:41 - Envoi du PDU vers la couche physique, paquet transmis : 1
-2023-06-27 13:20:41 - Reception du PDU de la couche physique
-2023-06-27 13:20:41 - Envoi du PDU vers la couche transport, paquets reçus : 1
-2023-06-27 13:20:41 - Reception du PDU de la couche physique
-2023-06-27 13:20:41 - Envoi du PDU vers la couche transport, paquets reçus : 2
-2023-06-27 13:20:41 - Reception du PDU de la couche transport
-2023-06-27 13:20:41 - Envoi du PDU vers la couche physique, paquet transmis : 2
-2023-06-27 13:20:41 - Reception du PDU de la couche physique
-2023-06-27 13:20:41 - Envoi du PDU vers la couche transport, paquets reçus : 2
-2023-06-27 13:20:41 - Reception du PDU de la couche physique
-2023-06-27 13:20:41 - Envoi du PDU vers la couche transport, paquets reçus : 3
-2023-06-27 13:20:41 - Reception du PDU de la couche transport
-2023-06-27 13:20:41 - Envoi du PDU vers la couche physique, paquet transmis : 3
-2023-06-27 13:20:41 - Reception du PDU de la couche physique
-2023-06-27 13:20:41 - Envoi du PDU vers la couche transport, paquets reçus : 3
-2023-06-27 13:20:41 - Reception du PDU de la couche physique
-2023-06-27 13:20:41 - Envoi du PDU vers la couche transport, paquets reçus : 4
-2023-06-27 13:20:41 - Reception du PDU de la couche transport
-2023-06-27 13:20:41 - Envoi du PDU vers la couche physique, paquet transmis : 4
-2023-06-27 13:20:41 - Reception du PDU de la couche physique
-2023-06-27 13:20:41 - Envoi du PDU vers la couche transport, paquets reçus : 4
-2023-06-27 13:20:41 - Reception du PDU de la couche physique
-2023-06-27 13:20:41 - Envoi du PDU vers la couche transport, paquets reçus : 5
-2023-06-27 13:20:41 - Reception du PDU de la couche transport
-2023-06-27 13:20:41 - Envoi du PDU vers la couche physique, paquet transmis : 5
-2023-06-27 13:20:41 - Reception du PDU de la couche physique
-2023-06-27 13:20:41 - Envoi du PDU vers la couche transport, paquets reçus : 5
-2023-06-27 13:20:41 - Reception du PDU de la couche physique
-2023-06-27 13:20:41 - Envoi du PDU vers la couche transport, paquets reçus : 6
-2023-06-27 13:20:41 - Reception du PDU de la couche transport
-2023-06-27 13:20:41 - Envoi du PDU vers la couche physique, paquet transmis : 6
-2023-06-27 13:20:41 - Reception du PDU de la couche physique
-2023-06-27 13:20:41 - Envoi du PDU vers la couche transport, paquets reçus : 6
-2023-06-27 13:20:41 - Reception du PDU de la couche physique
-2023-06-27 13:20:41 - Envoi du PDU vers la couche transport, paquets reçus : 7
-2023-06-27 13:20:41 - Reception du PDU de la couche transport
-2023-06-27 13:20:41 - Envoi du PDU vers la couche physique, paquet transmis : 7
-2023-06-27 13:20:41 - Reception du PDU de la couche physique
-2023-06-27 13:20:41 - Envoi du PDU vers la couche transport, paquets reçus : 7
-2023-06-27 13:20:41 - Reception du PDU de la couche physique
-2023-06-27 13:20:41 - Envoi du PDU vers la couche transport, paquets reçus : 8
-2023-06-27 13:20:41 - Reception du PDU de la couche transport
-2023-06-27 13:20:41 - Envoi du PDU vers la couche physique, paquet transmis : 8
-2023-06-27 13:20:41 - Reception du PDU de la couche physique
-2023-06-27 13:20:41 - Envoi du PDU vers la couche transport, paquets reçus : 8
-2023-06-27 13:20:41 - Reception du PDU de la couche physique
-2023-06-27 13:20:41 - Envoi du PDU vers la couche transport, paquets reçus : 9
-2023-06-27 13:20:41 - Reception du PDU de la couche transport
-2023-06-27 13:20:41 - Envoi du PDU vers la couche physique, paquet transmis : 9
-2023-06-27 13:20:41 - Reception du PDU de la couche physique
-2023-06-27 13:20:41 - Envoi du PDU vers la couche transport, paquets reçus : 9
-2023-06-27 13:20:41 - Reception du PDU de la couche physique
-2023-06-27 13:20:41 - Envoi du PDU vers la couche transport, paquets reçus : 10
-2023-06-27 13:20:41 - Reception du PDU de la couche transport
-2023-06-27 13:20:41 - Envoi du PDU vers la couche physique, paquet transmis : 10
-2023-06-27 13:20:41 - Reception du PDU de la couche physique
-2023-06-27 13:20:41 - Envoi du PDU vers la couche transport, paquets reçus : 10
-2023-06-27 13:20:41 - Reception du PDU de la couche physique
-2023-06-27 13:20:41 - Envoi du PDU vers la couche transport, paquets reçus : 11
-2023-06-27 13:20:41 - Reception du PDU de la couche transport
-2023-06-27 13:20:41 - Envoi du PDU vers la couche physique, paquet transmis : 11
-2023-06-27 13:20:41 - Reception du PDU de la couche physique
-2023-06-27 13:20:41 - Envoi du PDU vers la couche transport, paquets reçus : 11
-2023-06-27 13:20:41 - Reception du PDU de la couche physique
-2023-06-27 13:20:41 - Envoi du PDU vers la couche transport, paquets reçus : 12
-2023-06-27 13:20:41 - Reception du PDU de la couche transport
-2023-06-27 13:20:41 - Envoi du PDU vers la couche physique, paquet transmis : 12
-2023-06-27 13:20:41 - Reception du PDU de la couche physique
-2023-06-27 13:20:41 - Envoi du PDU vers la couche transport, paquets reçus : 12
-2023-06-27 13:20:41 - Reception du PDU de la couche physique
-2023-06-27 13:20:41 - Envoi du PDU vers la couche transport, paquets reçus : 13
-2023-06-27 13:20:41 - Reception du PDU de la couche transport
-2023-06-27 13:20:41 - Envoi du PDU vers la couche physique, paquet transmis : 13
-2023-06-27 13:20:41 - Reception du PDU de la couche physique
-2023-06-27 13:20:41 - Envoi du PDU vers la couche transport, paquets reçus : 13
-2023-06-27 13:20:41 - Reception du PDU de la couche physique
-2023-06-27 13:20:41 - Envoi du PDU vers la couche transport, paquets reçus : 14
-2023-06-27 13:20:41 - Reception du PDU de la couche transport
-2023-06-27 13:20:41 - Envoi du PDU vers la couche physique, paquet transmis : 14
-2023-06-27 13:20:41 - Reception du PDU de la couche physique
-2023-06-27 13:20:41 - Envoi du PDU vers la couche transport, paquets reçus : 14
-2023-06-27 13:20:41 - Reception du PDU de la couche physique
-2023-06-27 13:20:41 - Envoi du PDU vers la couche transport, paquets reçus : 15
-2023-06-27 13:20:41 - Reception du PDU de la couche transport
-2023-06-27 13:20:41 - Envoi du PDU vers la couche physique, paquet transmis : 15
-2023-06-27 13:20:41 - Reception du PDU de la couche physique
-2023-06-27 13:20:41 - Envoi du PDU vers la couche transport, paquets reçus : 15
-2023-06-27 13:20:41 - Reception du PDU de la couche physique
-2023-06-27 13:20:41 - Envoi du PDU vers la couche transport, paquets reçus : 16
-2023-06-27 13:20:41 - Reception du PDU de la couche transport
-2023-06-27 13:20:41 - Envoi du PDU vers la couche physique, paquet transmis : 16
-2023-06-27 13:20:41 - Reception du PDU de la couche physique
-2023-06-27 13:20:41 - Envoi du PDU vers la couche transport, paquets reçus : 16
+2023-06-27 15:23:36 - Reception du PDU de la couche transport
+2023-06-27 15:23:36 - Envoi du PDU vers la couche physique, paquet transmis : 1
+2023-06-27 15:23:36 - Reception du PDU de la couche transport
+2023-06-27 15:23:36 - Envoi du PDU vers la couche physique, paquet transmis : 2
+2023-06-27 15:23:36 - Reception du PDU de la couche transport
+2023-06-27 15:23:36 - Envoi du PDU vers la couche physique, paquet transmis : 3
+2023-06-27 15:23:36 - Reception du PDU de la couche transport
+2023-06-27 15:23:36 - Envoi du PDU vers la couche physique, paquet transmis : 4
+2023-06-27 15:23:36 - Reception du PDU de la couche transport
+2023-06-27 15:23:36 - Envoi du PDU vers la couche physique, paquet transmis : 5
+2023-06-27 15:23:36 - Reception du PDU de la couche transport
+2023-06-27 15:23:36 - Envoi du PDU vers la couche physique, paquet transmis : 6
+2023-06-27 15:23:36 - Reception du PDU de la couche transport
+2023-06-27 15:23:36 - Envoi du PDU vers la couche physique, paquet transmis : 7
+2023-06-27 15:23:36 - Reception du PDU de la couche transport
+2023-06-27 15:23:36 - Envoi du PDU vers la couche physique, paquet transmis : 8
+2023-06-27 15:23:36 - Reception du PDU de la couche transport
+2023-06-27 15:23:36 - Envoi du PDU vers la couche physique, paquet transmis : 9
+2023-06-27 15:23:36 - Reception du PDU de la couche transport
+2023-06-27 15:23:36 - Envoi du PDU vers la couche physique, paquet transmis : 10
+2023-06-27 15:23:36 - Reception du PDU de la couche transport
+2023-06-27 15:23:36 - Envoi du PDU vers la couche physique, paquet transmis : 11
+2023-06-27 15:23:36 - Reception du PDU de la couche transport
+2023-06-27 15:23:36 - Envoi du PDU vers la couche physique, paquet transmis : 12
+2023-06-27 15:23:36 - Reception du PDU de la couche transport
+2023-06-27 15:23:36 - Envoi du PDU vers la couche physique, paquet transmis : 13
+2023-06-27 15:23:36 - Reception du PDU de la couche physique
+2023-06-27 15:23:36 - Reception du PDU de la couche transport
+2023-06-27 15:23:36 - Envoi du PDU vers la couche physique, paquet transmis : 14
+2023-06-27 15:23:36 - Reception du PDU de la couche transport
+2023-06-27 15:23:36 - Envoi du PDU vers la couche physique, paquet transmis : 15
+2023-06-27 15:23:36 - Envoi du PDU vers la couche transport, paquets reçus : 1
+2023-06-27 15:23:36 - Reception du PDU de la couche transport
+2023-06-27 15:23:36 - Envoi du PDU vers la couche physique, paquet transmis : 16
+2023-06-27 15:23:36 - Reception du PDU de la couche transport
+2023-06-27 15:23:36 - Envoi du PDU vers la couche physique, paquet transmis : 1
+2023-06-27 15:23:36 - Reception du PDU de la couche physique
+2023-06-27 15:23:36 - Envoi du PDU vers la couche transport, paquets reçus : 1
+2023-06-27 15:23:36 - Reception du PDU de la couche physique
+2023-06-27 15:23:36 - Envoi du PDU vers la couche transport, paquets reçus : 2
+2023-06-27 15:23:36 - Reception du PDU de la couche transport
+2023-06-27 15:23:36 - Envoi du PDU vers la couche physique, paquet transmis : 2
+2023-06-27 15:23:36 - Reception du PDU de la couche physique
+2023-06-27 15:23:36 - Envoi du PDU vers la couche transport, paquets reçus : 2
+2023-06-27 15:23:36 - Reception du PDU de la couche physique
+2023-06-27 15:23:36 - Envoi du PDU vers la couche transport, paquets reçus : 3
+2023-06-27 15:23:36 - Reception du PDU de la couche transport
+2023-06-27 15:23:36 - Envoi du PDU vers la couche physique, paquet transmis : 3
+2023-06-27 15:23:36 - Reception du PDU de la couche physique
+2023-06-27 15:23:36 - Envoi du PDU vers la couche transport, paquets reçus : 3
+2023-06-27 15:23:36 - Reception du PDU de la couche physique
+2023-06-27 15:23:36 - Envoi du PDU vers la couche transport, paquets reçus : 4
+2023-06-27 15:23:36 - Reception du PDU de la couche transport
+2023-06-27 15:23:36 - Envoi du PDU vers la couche physique, paquet transmis : 4
+2023-06-27 15:23:36 - Reception du PDU de la couche physique
+2023-06-27 15:23:36 - Envoi du PDU vers la couche transport, paquets reçus : 4
+2023-06-27 15:23:36 - Reception du PDU de la couche physique
+2023-06-27 15:23:36 - Envoi du PDU vers la couche transport, paquets reçus : 5
+2023-06-27 15:23:36 - Reception du PDU de la couche transport
+2023-06-27 15:23:36 - Envoi du PDU vers la couche physique, paquet transmis : 5
+2023-06-27 15:23:36 - Reception du PDU de la couche physique
+2023-06-27 15:23:36 - Envoi du PDU vers la couche transport, paquets reçus : 5
+2023-06-27 15:23:36 - Reception du PDU de la couche physique
+2023-06-27 15:23:36 - Envoi du PDU vers la couche transport, paquets reçus : 6
+2023-06-27 15:23:36 - Reception du PDU de la couche transport
+2023-06-27 15:23:36 - Envoi du PDU vers la couche physique, paquet transmis : 6
+2023-06-27 15:23:36 - Reception du PDU de la couche physique
+2023-06-27 15:23:36 - Envoi du PDU vers la couche transport, paquets reçus : 6
+2023-06-27 15:23:36 - Reception du PDU de la couche physique
+2023-06-27 15:23:36 - Envoi du PDU vers la couche transport, paquets reçus : 7
+2023-06-27 15:23:36 - Reception du PDU de la couche transport
+2023-06-27 15:23:36 - Envoi du PDU vers la couche physique, paquet transmis : 7
+2023-06-27 15:23:36 - Reception du PDU de la couche physique
+2023-06-27 15:23:36 - Envoi du PDU vers la couche transport, paquets reçus : 7
+2023-06-27 15:23:36 - Reception du PDU de la couche physique
+2023-06-27 15:23:36 - Envoi du PDU vers la couche transport, paquets reçus : 8
+2023-06-27 15:23:36 - Reception du PDU de la couche transport
+2023-06-27 15:23:36 - Envoi du PDU vers la couche physique, paquet transmis : 8
+2023-06-27 15:23:36 - Reception du PDU de la couche physique
+2023-06-27 15:23:36 - Envoi du PDU vers la couche transport, paquets reçus : 8
+2023-06-27 15:23:36 - Reception du PDU de la couche physique
+2023-06-27 15:23:36 - Envoi du PDU vers la couche transport, paquets reçus : 9
+2023-06-27 15:23:36 - Reception du PDU de la couche transport
+2023-06-27 15:23:36 - Envoi du PDU vers la couche physique, paquet transmis : 9
+2023-06-27 15:23:36 - Reception du PDU de la couche physique
+2023-06-27 15:23:36 - Envoi du PDU vers la couche transport, paquets reçus : 9
+2023-06-27 15:23:36 - Reception du PDU de la couche physique
+2023-06-27 15:23:36 - Envoi du PDU vers la couche transport, paquets reçus : 10
+2023-06-27 15:23:36 - Reception du PDU de la couche transport
+2023-06-27 15:23:36 - Envoi du PDU vers la couche physique, paquet transmis : 10
+2023-06-27 15:23:36 - Reception du PDU de la couche physique
+2023-06-27 15:23:36 - Envoi du PDU vers la couche transport, paquets reçus : 10
+2023-06-27 15:23:36 - Reception du PDU de la couche physique
+2023-06-27 15:23:36 - Envoi du PDU vers la couche transport, paquets reçus : 11
+2023-06-27 15:23:36 - Reception du PDU de la couche transport
+2023-06-27 15:23:36 - Envoi du PDU vers la couche physique, paquet transmis : 11
+2023-06-27 15:23:36 - Reception du PDU de la couche physique
+2023-06-27 15:23:36 - Envoi du PDU vers la couche transport, paquets reçus : 11
+2023-06-27 15:23:36 - Reception du PDU de la couche physique
+2023-06-27 15:23:36 - Envoi du PDU vers la couche transport, paquets reçus : 12
+2023-06-27 15:23:36 - Reception du PDU de la couche transport
+2023-06-27 15:23:36 - Envoi du PDU vers la couche physique, paquet transmis : 12
+2023-06-27 15:23:36 - Reception du PDU de la couche physique
+2023-06-27 15:23:36 - Envoi du PDU vers la couche transport, paquets reçus : 12
+2023-06-27 15:23:36 - Reception du PDU de la couche physique
+2023-06-27 15:23:36 - Envoi du PDU vers la couche transport, paquets reçus : 13
+2023-06-27 15:23:36 - Reception du PDU de la couche transport
+2023-06-27 15:23:36 - Envoi du PDU vers la couche physique, paquet transmis : 13
+2023-06-27 15:23:36 - Reception du PDU de la couche physique
+2023-06-27 15:23:36 - Envoi du PDU vers la couche transport, paquets reçus : 13
+2023-06-27 15:23:36 - Reception du PDU de la couche physique
+2023-06-27 15:23:36 - Envoi du PDU vers la couche transport, paquets reçus : 14
+2023-06-27 15:23:36 - Reception du PDU de la couche transport
+2023-06-27 15:23:36 - Envoi du PDU vers la couche physique, paquet transmis : 14
+2023-06-27 15:23:36 - Reception du PDU de la couche physique
+2023-06-27 15:23:36 - Envoi du PDU vers la couche transport, paquets reçus : 14
+2023-06-27 15:23:36 - Reception du PDU de la couche physique
+2023-06-27 15:23:36 - Envoi du PDU vers la couche transport, paquets reçus : 15
+2023-06-27 15:23:36 - Reception du PDU de la couche transport
+2023-06-27 15:23:36 - Envoi du PDU vers la couche physique, paquet transmis : 15
+2023-06-27 15:23:36 - Reception du PDU de la couche physique
+2023-06-27 15:23:36 - Envoi du PDU vers la couche transport, paquets reçus : 15
+2023-06-27 15:23:36 - Reception du PDU de la couche physique
+2023-06-27 15:23:36 - Envoi du PDU vers la couche transport, paquets reçus : 16
+2023-06-27 15:23:36 - Reception du PDU de la couche transport
+2023-06-27 15:23:36 - Envoi du PDU vers la couche physique, paquet transmis : 16
+2023-06-27 15:23:36 - Reception du PDU de la couche physique
+2023-06-27 15:23:36 - Envoi du PDU vers la couche transport, paquets reçus : 16
+2023-06-27 15:24:35 - Reception du PDU de la couche transport
+2023-06-27 15:24:35 - Envoi du PDU vers la couche physique, paquet transmis : 1
+2023-06-27 15:24:35 - Reception du PDU de la couche transport
+2023-06-27 15:24:35 - Envoi du PDU vers la couche physique, paquet transmis : 2
+2023-06-27 15:24:35 - Reception du PDU de la couche transport
+2023-06-27 15:24:35 - Envoi du PDU vers la couche physique, paquet transmis : 3
+2023-06-27 15:24:35 - Reception du PDU de la couche transport
+2023-06-27 15:24:35 - Envoi du PDU vers la couche physique, paquet transmis : 4
+2023-06-27 15:24:35 - Reception du PDU de la couche transport
+2023-06-27 15:24:35 - Envoi du PDU vers la couche physique, paquet transmis : 5
+2023-06-27 15:24:35 - Reception du PDU de la couche transport
+2023-06-27 15:24:35 - Envoi du PDU vers la couche physique, paquet transmis : 6
+2023-06-27 15:24:35 - Reception du PDU de la couche transport
+2023-06-27 15:24:35 - Envoi du PDU vers la couche physique, paquet transmis : 7
+2023-06-27 15:24:35 - Reception du PDU de la couche transport
+2023-06-27 15:24:35 - Envoi du PDU vers la couche physique, paquet transmis : 8
+2023-06-27 15:24:35 - Reception du PDU de la couche transport
+2023-06-27 15:24:35 - Envoi du PDU vers la couche physique, paquet transmis : 9
+2023-06-27 15:24:35 - Reception du PDU de la couche transport
+2023-06-27 15:24:35 - Envoi du PDU vers la couche physique, paquet transmis : 10
+2023-06-27 15:24:35 - Reception du PDU de la couche transport
+2023-06-27 15:24:35 - Envoi du PDU vers la couche physique, paquet transmis : 11
+2023-06-27 15:24:35 - Reception du PDU de la couche transport
+2023-06-27 15:24:35 - Envoi du PDU vers la couche physique, paquet transmis : 12
+2023-06-27 15:24:35 - Reception du PDU de la couche physique
+2023-06-27 15:24:35 - Reception du PDU de la couche transport
+2023-06-27 15:24:35 - Envoi du PDU vers la couche physique, paquet transmis : 13
+2023-06-27 15:24:35 - Envoi du PDU vers la couche transport, paquets reçus : 1
+2023-06-27 15:24:35 - Reception du PDU de la couche transport
+2023-06-27 15:24:35 - Envoi du PDU vers la couche physique, paquet transmis : 14
+2023-06-27 15:24:35 - Reception du PDU de la couche transport
+2023-06-27 15:24:35 - Envoi du PDU vers la couche physique, paquet transmis : 15
+2023-06-27 15:24:35 - Reception du PDU de la couche transport
+2023-06-27 15:24:35 - Envoi du PDU vers la couche physique, paquet transmis : 16
+2023-06-27 15:24:35 - Reception du PDU de la couche transport
+2023-06-27 15:24:35 - Envoi du PDU vers la couche physique, paquet transmis : 1
+2023-06-27 15:24:35 - Reception du PDU de la couche physique
+2023-06-27 15:24:35 - Envoi du PDU vers la couche transport, paquets reçus : 1
+2023-06-27 15:24:35 - Reception du PDU de la couche physique
+2023-06-27 15:24:35 - Envoi du PDU vers la couche transport, paquets reçus : 2
+2023-06-27 15:24:35 - Reception du PDU de la couche transport
+2023-06-27 15:24:35 - Envoi du PDU vers la couche physique, paquet transmis : 2
+2023-06-27 15:24:35 - Reception du PDU de la couche physique
+2023-06-27 15:24:35 - Envoi du PDU vers la couche transport, paquets reçus : 2
+2023-06-27 15:24:35 - Reception du PDU de la couche physique
+2023-06-27 15:24:35 - Envoi du PDU vers la couche transport, paquets reçus : 3
+2023-06-27 15:24:35 - Reception du PDU de la couche transport
+2023-06-27 15:24:35 - Envoi du PDU vers la couche physique, paquet transmis : 3
+2023-06-27 15:24:35 - Reception du PDU de la couche physique
+2023-06-27 15:24:35 - Envoi du PDU vers la couche transport, paquets reçus : 3
+2023-06-27 15:24:35 - Reception du PDU de la couche physique
+2023-06-27 15:24:35 - Envoi du PDU vers la couche transport, paquets reçus : 4
+2023-06-27 15:24:35 - Reception du PDU de la couche transport
+2023-06-27 15:24:35 - Envoi du PDU vers la couche physique, paquet transmis : 4
+2023-06-27 15:24:35 - Reception du PDU de la couche physique
+2023-06-27 15:24:35 - Envoi du PDU vers la couche transport, paquets reçus : 4
+2023-06-27 15:24:35 - Reception du PDU de la couche physique
+2023-06-27 15:24:35 - Envoi du PDU vers la couche transport, paquets reçus : 5
+2023-06-27 15:24:35 - Reception du PDU de la couche transport
+2023-06-27 15:24:35 - Envoi du PDU vers la couche physique, paquet transmis : 5
+2023-06-27 15:24:35 - Reception du PDU de la couche physique
+2023-06-27 15:24:35 - Envoi du PDU vers la couche transport, paquets reçus : 5
+2023-06-27 15:24:35 - Reception du PDU de la couche physique
+2023-06-27 15:24:35 - Erreur de CRC : 0
+2023-06-27 15:24:35 - Reception du PDU de la couche physique
+2023-06-27 15:24:35 - Envoi du PDU vers la couche transport, paquets reçus : 7
+2023-06-27 15:24:35 - Reception du PDU de la couche transport
+2023-06-27 15:24:35 - Envoi du PDU vers la couche physique, paquet transmis : 6
+2023-06-27 15:24:35 - Reception du PDU de la couche physique
+2023-06-27 15:24:35 - Envoi du PDU vers la couche transport, paquets reçus : 6
+2023-06-27 15:24:35 - Reception du PDU de la couche transport
+2023-06-27 15:24:35 - Envoi du PDU vers la couche physique, paquet transmis : 17
+2023-06-27 15:24:35 - Reception du PDU de la couche transport
+2023-06-27 15:24:35 - Envoi du PDU vers la couche physique, paquet transmis : 7
+2023-06-27 15:24:35 - Reception du PDU de la couche transport
+2023-06-27 15:24:35 - Envoi du PDU vers la couche physique, paquet transmis : 18
+2023-06-27 15:24:35 - Reception du PDU de la couche physique
+2023-06-27 15:24:35 - Envoi du PDU vers la couche transport, paquets reçus : 8
+2023-06-27 15:24:35 - Reception du PDU de la couche transport
+2023-06-27 15:24:35 - Envoi du PDU vers la couche physique, paquet transmis : 8
+2023-06-27 15:24:35 - Reception du PDU de la couche physique
+2023-06-27 15:24:35 - Envoi du PDU vers la couche transport, paquets reçus : 7
+2023-06-27 15:24:35 - Reception du PDU de la couche transport
+2023-06-27 15:24:35 - Envoi du PDU vers la couche physique, paquet transmis : 19
+2023-06-27 15:24:35 - Reception du PDU de la couche physique
+2023-06-27 15:24:35 - Envoi du PDU vers la couche transport, paquets reçus : 9
+2023-06-27 15:24:35 - Reception du PDU de la couche transport
+2023-06-27 15:24:35 - Envoi du PDU vers la couche physique, paquet transmis : 9
+2023-06-27 15:24:35 - Reception du PDU de la couche physique
+2023-06-27 15:24:35 - Envoi du PDU vers la couche transport, paquets reçus : 8
+2023-06-27 15:24:35 - Reception du PDU de la couche physique
+2023-06-27 15:24:35 - Envoi du PDU vers la couche transport, paquets reçus : 9
+2023-06-27 15:24:35 - Reception du PDU de la couche physique
+2023-06-27 15:24:35 - Envoi du PDU vers la couche transport, paquets reçus : 10
+2023-06-27 15:24:35 - Reception du PDU de la couche transport
+2023-06-27 15:24:35 - Envoi du PDU vers la couche physique, paquet transmis : 10
+2023-06-27 15:24:35 - Reception du PDU de la couche physique
+2023-06-27 15:24:35 - Envoi du PDU vers la couche transport, paquets reçus : 10
+2023-06-27 15:24:35 - Reception du PDU de la couche physique
+2023-06-27 15:24:35 - Envoi du PDU vers la couche transport, paquets reçus : 11
+2023-06-27 15:24:35 - Reception du PDU de la couche transport
+2023-06-27 15:24:35 - Envoi du PDU vers la couche physique, paquet transmis : 11
+2023-06-27 15:24:35 - Reception du PDU de la couche physique
+2023-06-27 15:24:35 - Envoi du PDU vers la couche transport, paquets reçus : 11
+2023-06-27 15:24:35 - Reception du PDU de la couche physique
+2023-06-27 15:24:35 - Envoi du PDU vers la couche transport, paquets reçus : 12
+2023-06-27 15:24:35 - Reception du PDU de la couche transport
+2023-06-27 15:24:35 - Envoi du PDU vers la couche physique, paquet transmis : 12
+2023-06-27 15:24:35 - Reception du PDU de la couche physique
+2023-06-27 15:24:35 - Envoi du PDU vers la couche transport, paquets reçus : 12
+2023-06-27 15:24:35 - Reception du PDU de la couche physique
+2023-06-27 15:24:35 - Envoi du PDU vers la couche transport, paquets reçus : 13
+2023-06-27 15:24:35 - Reception du PDU de la couche transport
+2023-06-27 15:24:35 - Envoi du PDU vers la couche physique, paquet transmis : 13
+2023-06-27 15:24:35 - Reception du PDU de la couche physique
+2023-06-27 15:24:35 - Envoi du PDU vers la couche transport, paquets reçus : 13
+2023-06-27 15:24:35 - Reception du PDU de la couche physique
+2023-06-27 15:24:35 - Envoi du PDU vers la couche transport, paquets reçus : 14
+2023-06-27 15:24:35 - Reception du PDU de la couche transport
+2023-06-27 15:24:35 - Envoi du PDU vers la couche physique, paquet transmis : 14
+2023-06-27 15:24:35 - Reception du PDU de la couche physique
+2023-06-27 15:24:35 - Envoi du PDU vers la couche transport, paquets reçus : 14
+2023-06-27 15:24:35 - Reception du PDU de la couche physique
+2023-06-27 15:24:35 - Envoi du PDU vers la couche transport, paquets reçus : 15
+2023-06-27 15:24:35 - Reception du PDU de la couche transport
+2023-06-27 15:24:35 - Envoi du PDU vers la couche physique, paquet transmis : 15
+2023-06-27 15:24:35 - Reception du PDU de la couche physique
+2023-06-27 15:24:35 - Envoi du PDU vers la couche transport, paquets reçus : 15
+2023-06-27 15:24:35 - Reception du PDU de la couche physique
+2023-06-27 15:24:35 - Envoi du PDU vers la couche transport, paquets reçus : 16
+2023-06-27 15:24:35 - Reception du PDU de la couche transport
+2023-06-27 15:24:35 - Envoi du PDU vers la couche physique, paquet transmis : 16
+2023-06-27 15:24:35 - Reception du PDU de la couche physique
+2023-06-27 15:24:35 - Envoi du PDU vers la couche transport, paquets reçus : 16
+2023-06-27 15:24:35 - Reception du PDU de la couche physique
+2023-06-27 15:24:35 - Envoi du PDU vers la couche transport, paquets reçus : 17
+2023-06-27 15:24:35 - Reception du PDU de la couche transport
+2023-06-27 15:24:35 - Envoi du PDU vers la couche physique, paquet transmis : 17
+2023-06-27 15:24:35 - Reception du PDU de la couche physique
+2023-06-27 15:24:35 - Envoi du PDU vers la couche transport, paquets reçus : 17
+2023-06-27 15:24:35 - Reception du PDU de la couche transport
+2023-06-27 15:24:35 - Envoi du PDU vers la couche physique, paquet transmis : 20
+2023-06-27 15:24:35 - Reception du PDU de la couche transport
+2023-06-27 15:24:35 - Envoi du PDU vers la couche physique, paquet transmis : 21

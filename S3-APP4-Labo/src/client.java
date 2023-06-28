@@ -26,7 +26,7 @@ public class client {
         liaison.setCurrentPlusBas(physique);
         physique.setCurrentPlusHaut(liaison);
 
-        //physique.setErreur(true);
+        physique.setErreur(true);
 
         physique.setDestAdresseIP("localhost");
         physique.setDestPort(25555);
